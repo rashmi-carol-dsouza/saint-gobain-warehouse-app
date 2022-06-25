@@ -1,4 +1,4 @@
-const API_URL = 'https://datatrack2022.herokuapp.com/';
+const API_URL = 'https://datatrack2022.herokuapp.com';
 
 const Scanner = {
   lastScannedCode: "",
