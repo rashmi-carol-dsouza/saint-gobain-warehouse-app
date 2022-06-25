@@ -360,7 +360,7 @@ const Scanner = {
         let params = new URL(document.location).searchParams;
         let productionLine = params.get("productionLine");
         var request = $.ajax({
-          url: "/scan",
+          url: '${API_URL}/barcodes',
           method: "POST",
           data: { barcode: code, productionLine },
           dataType: "json",
