@@ -1,0 +1,86 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#grad {
+  background-image: linear-gradient(to right, #522B5B , #1C4184);
+  margin: auto
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+input[type=search]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.imgcontainer2 {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 70%;
+}
+
+img.avatar2 {
+  width: 40%;
+}
+
+.container {
+  padding: 30px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+#outer
+{
+    width:110%;
+    text-align: center;
+}
+
+.inner
+{
+    display: inline-block;
+}
+
+button {
+    padding: 0px;
+    background: transparent;
+    border: 0;
+}
+
+.btn-size {
+    width: 120px;
+    height: 120px;
+}
+
+.img-size img {
+    width: 120px;
+    height: 120px;
+}
+
+.space {
+  width: 15px;
+  height: auto;
+  display: inline-block;
+}
