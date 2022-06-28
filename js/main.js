@@ -1,3 +1,12 @@
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function() {
+    navigator.serviceWorker
+      .register("/serviceWorker.js")
+      .then(res => console.log("service worker registered"))
+      .catch(err => console.log("service worker not registered", err))
+  })
+}
+
 const API_URL = 'https://datatrack2022.herokuapp.com';
 
 const Scanner = {
@@ -414,3 +423,5 @@ $(function () {
   Scanner.init();
   ViewScans.init();
 });
+
+
