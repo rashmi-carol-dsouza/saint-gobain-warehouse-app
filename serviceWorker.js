@@ -1,4 +1,4 @@
-const staticDevWarehouse = "dev-coffee-site-v1"
+const staticDevWarehouse = "dev-warehouse-site-v1"
 const assets = [
   "/",
   "/index.html",
@@ -27,7 +27,7 @@ const assets = [
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticDevCoffee).then(cache => {
+    caches.open(staticDevWarehous).then(cache => {
       cache.addAll(assets)
     })
   )
