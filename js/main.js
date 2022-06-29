@@ -316,9 +316,18 @@ const Scanner = {
         locate: true,
       },
       lastResult: null,
+      setInitialState: function() {
+        const self = this;
+        const name = 'decoder_readers';
+        const state = self._convertNameToState(name);
+        const value = $(`[name=${name}]`).val();
+        console.log(state, value);
+        self.setState(state, value);
+      }
     };
 
     App.init();
+    App.setInitialState();
 
     Quagga.onProcessed(function (result) {
       var drawingCtx = Quagga.canvas.ctx.overlay,
