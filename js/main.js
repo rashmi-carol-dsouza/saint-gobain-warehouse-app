@@ -399,7 +399,7 @@ const Login = {
   init: function () {
     $("#login").on("submit", function (event) {
       event.preventDefault();
-      window.location.href = "landing-page.html";
+      window.location.href = "sg_landing2.html";
     });
   },
 };
